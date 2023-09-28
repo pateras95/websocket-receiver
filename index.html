@@ -13,7 +13,7 @@
     <div id="colorIndicator" style="width: 100px; height: 100px;"></div>
 
     <script>
-        const socket = new WebSocket('wss://server-test.pateras95.repl.co:3000'); // WebSocket server URL
+        const socket = new WebSocket('wss://server-test.pateras95.repl.co'); // WebSocket server URL
 
         socket.addEventListener('message', (event) => {
             console.log('Received message:', event.data);
